@@ -1,19 +1,23 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { CarouselStyle, Wrapper, Left, Right } from './styles';
 import ThumbCovid from '../ThumbCovid';
-import { CarouselStyle, Right } from './styles';
-import { Wrapper } from '../HeaderOpen/styles';
 
 function CarouselCovid({ videos }) {
   //let moveRight = useState;
-  const [moveRight, setmoveRight] = useState(false);
+  const [move, setMove] = useState(0);
 
   function actionRight() {
-    setmoveRight(true);
+    setMove(oldMove => oldMove - 1);
+  }
+
+  function actionLeft() {
+    setMove(oldMove => oldMove + 1);
   }
   return (
     <CarouselStyle>
-      <Wrapper moveRight={moveRight}>
+      <Left onClick={actionLeft} />
+      <Wrapper move={move}>
         {videos.map(({ src, alt, title, avatar, channelName, timer, link }) => (
           <ThumbCovid
             src={src}

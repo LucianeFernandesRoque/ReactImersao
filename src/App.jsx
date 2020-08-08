@@ -103,6 +103,24 @@ const videos = [
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
+  {
+    src: MarcoDev,
+    alt: 'Thumb MarcoBrunoDev',
+    title: 'Curso React Feliz',
+    avatar: MarcoBruno,
+    channelName: 'marcobrunodev',
+    timer: '03:19:03',
+    Link: 'https: "//twich.tv/',
+  },
+  {
+    src: MarcoDev,
+    alt: 'Thumb MarcoBrunoDev',
+    title: 'Curso React Feliz',
+    avatar: MarcoBruno,
+    channelName: 'marcobrunodev',
+    timer: '03:19:03',
+    Link: 'https: "//twich.tv/',
+  },
 ];
 
 function App() {
