@@ -13,6 +13,7 @@ ReactDOM.render(
       <Switch>
         <Route path="/" exact component={App} />
         <Route path="/video/new" exact component={Video} />
+        <Route component={() => <div>Pagina 404 :/</div>} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,

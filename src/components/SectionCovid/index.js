@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import container from '../../Tools/container';
 import TagCovid from '../TagCovid';
 import DescriptionCovid from '../DescriptionCovid';
 

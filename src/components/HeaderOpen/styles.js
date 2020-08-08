@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 import ButtonCovid from '../ButtomCovid';
 import LogoCovid from '../LogoCovid';
-import container from '../../Tools/container';
-
-
 
 export const HeaderCovid = styled.header`
   background-color: var(--color-black-dark);
