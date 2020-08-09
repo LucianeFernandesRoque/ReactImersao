@@ -85,10 +85,22 @@ export const CarouselStyle = styled.div`
     width: var(--thumb-width);
   }
 
-  &:hover > ${Right}, &:hover > ${Left} {
+  &:hover > ${Right} {
     opacity: 0.8;
   }
 
+  &:hover > ${Left} {
+    ${({ leftShow }) =>
+      leftShow
+        ? css`
+            display: block;
+            opacity: 0.8;
+          `
+        : css`
+            display: none;
+            opacity: 0;
+          `}
+  }
   & > ${Right}:hover {
     opacity: 0.9;
     transform-origin: right center;
