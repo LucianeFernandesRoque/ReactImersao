@@ -1,8 +1,6 @@
 import React from 'react';
-import { BannerCovid, Text } from './components/BannerCovid';
+import BannerCovid from './components/BannerCovid';
 import TagCovid from './components/TagCovid';
-import TitleCovid from './components/TitleCovid';
-import DescriptionCovid from './components/DescriptionCovid';
 import ThumbCovid from './components/ThumbCovid';
 import MarcoDev from './assets/img/MarcoBrunoDev.png';
 import MarcoBruno from './assets/img/MarcoBruno.png';
@@ -10,6 +8,7 @@ import HeaderOpen from './components/HeaderOpen';
 import FooterOpen from './components/FooterOpen';
 import SectionCovid from './components/SectionCovid';
 import CarouselCovid from './components/CarouselCovid';
+import DescriptionCovid from './components/DescriptionCovid';
 
 const videos = [
   {
@@ -128,15 +127,12 @@ function App() {
     <>
       <HeaderOpen />
 
-      <BannerCovid>
-        <Text>
-          <TagCovid>Codando Feliz</TagCovid>
-          <TitleCovid>Marco Bruno - Aprendizado Feliz</TitleCovid>
-          <DescriptionCovid>
-            Aprendendo Feliz á codar com o MarcoBruno.
-          </DescriptionCovid>
-        </Text>
-
+      <BannerCovid
+        tag="Em busca de um emprego"
+        title="React Feliz"
+        DescriptionCovid="Fazendo projetos para adquirir 
+        conhecimento e arranjar um trabalho com programação."
+      >
         <ThumbCovid
           src={MarcoDev}
           alt="Thumb MarcoBrunoDev"
@@ -146,14 +142,23 @@ function App() {
           timer="03:19:03"
         />
       </BannerCovid>
+
       <SectionCovid>
-        <TagCovid>#ImersaoReact</TagCovid>
+        <TagCovid>Aprendendo React</TagCovid>
+
         <DescriptionCovid>
-          #SuperDev é um projeto para aprender react.
+          Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um
+          leite divinis, qui tem lupuliz, matis, aguis e fermentis.
+          Interessantiss quisso pudia ce receita de bolis, mais bolis eu num
+          gostis. Praesent malesuada urna nisi, quis volutpat erat hendrerit
+          non. Nam vulputate dapibus. Leite de capivaris, leite de mula manquis
+          sem cabeça.
         </DescriptionCovid>
-        <TagCovid small>Marco Bruno - DevFeliz</TagCovid>
+
+        <TagCovid small>#ImersaoReact</TagCovid>
         <CarouselCovid videos={videos} />
       </SectionCovid>
+
       <FooterOpen />
     </>
   );

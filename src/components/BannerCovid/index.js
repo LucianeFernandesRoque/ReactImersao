@@ -1,25 +1,28 @@
-import styled from 'styled-components';
-import container from '../../Tools/container';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { BannerStyle, Text } from './styles';
 import TagCovid from '../TagCovid';
 import TitleCovid from '../TitleCovid';
+import DescriptionCovid from '../DescriptionCovid';
 
-export const Text = styled.div`
-  padding-top: 10rem;
-  max-width: 45%;
-  ${TagCovid} {
-    margin-bottom: 40rem;
-  }
+function BannerCovid({ children, tag, title, description }) {
+  return (
+    <BannerStyle>
+      <Text>
+        <TagCovid>{tag}</TagCovid>
+        <TitleCovid>{title}</TitleCovid>
+        <DescriptionCovid>{description}</DescriptionCovid>
+      </Text>
+      {children}
+    </BannerStyle>
+  );
+}
 
-  ${TitleCovid} {
-    margin-bottom: 20rem;
-  }
-`;
+BannerCovid.propTypes = {
+  children: PropTypes.element.isRequired,
+  tag: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
 
-export const BannerCovid = styled.section`
-  ${container};
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-height: 70vh;
-  height: 100vh;
-`;
+export default BannerCovid;

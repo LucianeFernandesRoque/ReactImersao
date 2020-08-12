@@ -1,3 +1,8 @@
+import { createGlobalStyle } from 'styled-components';
+const Colors = createGlobalStyle`
+
+
+
 :root {
   --color-primary-medium: #2a7ae4;
 
@@ -16,3 +21,6 @@
   --color-button: #0fbcf9;
   --color-logo: #b53471;
 }
+
+`;
+export default Colors;

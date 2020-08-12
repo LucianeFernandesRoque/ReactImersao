@@ -1,3 +1,6 @@
+import { createGlobalStyle } from 'styled-components';
+
+const Reset = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -107,8 +110,8 @@ section {
 }
 body {
   line-height: 1;
-  font-family: 'PT Sans', sans-serif;
-  background-color: var(--color-black-dark);
+  font-family: 'VT323', monospace;
+  background-color: #535c68;
 }
 ol,
 ul {
@@ -134,11 +137,12 @@ html,
 body {
   font-size: 1px;
   min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 #root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  height: 100%;
 }
+`;
+
+export default Reset;
