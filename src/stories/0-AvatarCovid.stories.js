@@ -10,7 +10,3 @@ export default {
 export const Default = () => (
   <AvatarCovid photo={MarcoBruno} channelName="marcobrunodev" />
 );
-
-Default.story = {
-  name: 'to Storybook',
-};
