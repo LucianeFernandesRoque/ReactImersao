@@ -2,8 +2,8 @@ import React from 'react';
 import BannerCovid from './components/BannerCovid';
 import TagCovid from './components/TagCovid';
 import ThumbCovid from './components/ThumbCovid';
-import MarcoDev from './assets/img/MarcoBrunoDev.png';
-import MarcoBruno from './assets/img/MarcoBruno.png';
+import LucianeFernandes from './assets/img/LucianeFernandes.png';
+import MarcoBrunoDev from './assets/img/MarcoBrunoDev.png';
 import HeaderOpen from './components/HeaderOpen';
 import FooterOpen from './components/FooterOpen';
 import SectionCovid from './components/SectionCovid';
@@ -12,111 +12,111 @@ import DescriptionCovid from './components/DescriptionCovid';
 
 const videos = [
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
 
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
   {
-    src: MarcoDev,
+    src: MarcoBrunoDev,
     alt: 'Thumb MarcoBrunoDev',
     title: 'Curso React Feliz',
-    avatar: MarcoBruno,
-    channelName: 'marcobrunodev',
+    avatar: LucianeFernandes,
+    channelName: 'LucianeFernandesRoque',
     timer: '03:19:03',
     Link: 'https: "//twich.tv/',
   },
@@ -134,11 +134,11 @@ function App() {
         conhecimento e arranjar um trabalho com programação."
       >
         <ThumbCovid
-          src={MarcoDev}
+          src={MarcoBrunoDev}
           alt="Thumb MarcoBrunoDev"
           title="Curso React Feliz"
-          avatar={MarcoBruno}
-          channelName="marcobrunodev"
+          avatar={LucianeFernandes}
+          channelName="LucianeFernandesRoque"
           timer="03:19:03"
         />
       </BannerCovid>
